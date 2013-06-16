@@ -25,7 +25,7 @@ h1 {
 
 .orange-no-dec:hover {
 	text-decoration: none;
-	color: white;
+	color: silver;
 }
 
 .name-header {
@@ -44,15 +44,27 @@ h1 {
 }
 
 .post-preview {
-	padding:0px;
-	margin:1px;
 	background-color:#ECF0F1;
+	padding: 0px 10px 10px 10px;
+}
+
+.about-me-header p > a:hover {
+	color:silver;
+}
+.about-me-header p {
+	color:silver;
+}
+.about-me-header h2 {
+	color:#E65C00;
+}
+.footer p {
+	color:#E65C00;
+}
+.footer p > a:hover {
+	color:#E65C00;
 }
 
 
-.posts-row {
-	margin-left:0px;
-}
 
 /*****************************************************************************/
 /*

@@ -2,14 +2,46 @@
 layout: default
 title: Chris Tate
 ---
+<hr>
+<div class="about-me-header">
+	<div class="row">
+		<div class="span2">
+			<img height="120" width="120" src="/assets/PromPic.jpg">
+		</div>
+		<div class="span10">
+			<h2>Hey!</h2>
+			<p>I'm Chris Tate. If you've found this you are at my
+			little corner of the internet. I'm a software engineer
+			headed into my senior year at Auburn University, majoring
+			in computer science. I really love playing around with new
+			technologies and programming languages. Go to the 
+			<a href="/about">about</a> page if you want to find out
+			more. My recent blog posts are below. Thanks for visiting!
+			</p>
+			<div class="contact">
+				<a class="orange-no-dec" href="//github.com/ctlevi">
+					<i class="icon-github icon-2x"></i> 
+				</a>
+				<a class="orange-no-dec" href="//www.facebook.com/christopher.tate.758">
+					<i class="icon-facebook icon-2x"></i>
+				</a>
+				<a class="orange-no-dec" href="//twitter.com/ctlevi">
+					<i class="icon-twitter icon-2x"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<hr>
 
-<h2>Blog Posts</h2>
 {% for post in site.posts limit:12%}
-	{% cycle 'add rows': '<div class="row posts-row">', nil, nil %}
-	<div class="span4 well post-preview">
-		<p>{{post.date | date_to_string }}</p>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		{{ post.excerpt }}
+	{% cycle 'add rows': '<div class="row">', nil, nil %}
+	<div class="span4">
+		<div class="well post-preview">
+			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+			<p>{{post.date | date_to_string }}</p>
+			{{ post.excerpt }}
+		</div>
 	</div>
 	{% cycle 'close rows': nil, nil, '</div>' %}
 {% endfor %}
