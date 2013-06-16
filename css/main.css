@@ -43,6 +43,17 @@ h1 {
 	margin-left:10px;
 }
 
+.post-preview {
+	padding:0px;
+	margin:1px;
+	background-color:#ECF0F1;
+}
+
+
+.posts-row {
+	margin-left:0px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
