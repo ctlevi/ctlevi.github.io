@@ -18,7 +18,8 @@ I saw this link on HN, [Dirty Coding Tricks][dirty-coding-tricks], about program
 >
 >Instead, he brought up a source file and pointed to this line:
 >
->static char buffer[1024*1024*2];
+>static char buffer[1024\*1024\*2];
+>
 >"See this?" he said. And then deleted it with a single keystroke. Done!
 >
 >He probably saw the horror in my eyes, so he explained to me that he had put aside those two megabytes of memory early in the development cycle. He knew from experience that it was always impossible to cut content down to memory budgets, and that many projects had come close to failing because of it. So now, as a regular practice, he always put aside a nice block of memory to free up when it's really needed.
@@ -26,5 +27,7 @@ I saw this link on HN, [Dirty Coding Tricks][dirty-coding-tricks], about program
 >He walked out of the office and announced he had reduced the memory footprint to within budget constraints -- he was toasted as the hero of the project.
 >
 >As horrified as I was back then about such a "barbaric" practice, I have to admit that I'm warming up to it. I haven't gotten into the frame of mind where I can put it to use yet, but I can see how sometimes, when you're up against the wall, having a bit of memory tucked away for a rainy day can really make a difference. Funny how time and experience changes everything.
+>
+>\- *Noel Llopis* from [Dirty Coding Tricks][dirty-coding-tricks]
 
 [dirty-coding-tricks]: http://www.gamasutra.com/view/feature/4111/dirty_coding_tricks.php?print=1
