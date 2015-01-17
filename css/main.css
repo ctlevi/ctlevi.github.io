@@ -136,3 +136,14 @@ ul.posts span {
 .sharing-section .sharing-widgets {
     padding-bottom: 10px;
 }
+
+/* Archive */
+.archive-posts h3 {
+    color:#E65C00;
+}
+.archive-posts p {
+    color:silver;
+}
+.archive-posts p > a:hover {
+    color:#E65C00;
+}
