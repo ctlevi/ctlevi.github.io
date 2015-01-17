@@ -1,2 +1,4 @@
 name: Chris Tate
-pygments: true
+highlighter: pygments
+gems:
+    - jekyll-sitemap
