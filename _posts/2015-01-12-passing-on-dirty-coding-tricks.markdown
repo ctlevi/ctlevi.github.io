@@ -2,7 +2,7 @@
 layout: post
 title:  "Passing on Dirty Coding Tricks"
 date:   2015-01-12 16:56:56
-categories: coding wisdom
+categories: software 
 ---
 I hate new year resolutions, so my first post being so close to the new year is just a coincidence. I do want to write more. What better way than to let someone else write for me. Just pass some knowledge along.
 
