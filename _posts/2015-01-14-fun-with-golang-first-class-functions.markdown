@@ -2,7 +2,7 @@
 layout: post
 title:  "Fun with Golang First Class Functions"
 date:   2015-01-25 16:56:56
-categories: coding go golang functions first class
+categories: software
 ---
 I've been trying to beat my wife at [Scramble with Friends][scramble-with-friends], one of those Zynga Android games, since Christmas time when my brother-in-law introduced us to the game. It was strangely addicting, and stranger yet when I couldn't beat her. Since then, I've been working on relentlessly beating my wife. Strange when you put it that way...
 
