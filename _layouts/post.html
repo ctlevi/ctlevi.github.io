@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
         <div class=well style="background-color:white;">
             <h2>{{ page.title }}</h2>
             <p class="meta">{{ page.date | date_to_string }}</p>
@@ -13,7 +13,7 @@ layout: default
             </div>
         </div>
     </div>
-    <div class="col-md-4 post-sidebar">
+    <div class="col-md-3 post-sidebar">
         <div class="row well">
             <h3> Latest posts </h3>
             {% for post in site.posts limit:5%}

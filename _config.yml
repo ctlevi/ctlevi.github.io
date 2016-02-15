@@ -1,4 +1,4 @@
 name: Chris Tate
-highlighter: pygments
+highlighter: rouge
 gems:
     - jekyll-sitemap
