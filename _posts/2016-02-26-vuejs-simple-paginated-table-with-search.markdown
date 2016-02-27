@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vuejs - Simple Paginated Table with Search"
+title:  "Vuejs - Making a Simple Paginated Table with Search"
 date:   2015-02-26 16:56:56
 categories: software
 ---
