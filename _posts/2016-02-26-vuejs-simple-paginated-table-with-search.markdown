@@ -179,13 +179,13 @@ I hope you learned how easy Vue can make your life. So far I'm having a really g
 
 If you don't feel like rolling your own table, there is a nice [vue-tables][vue-tables] library I found that seems pretty robust although I haven't tried it out yet. It covers a lot more use cases and has column sorting built in.
 
-[data-tables]: https://www.datatables.net/ 
+[data-tables]: https://www.datatables.net/
 [vue-js]: http://vuejs.org/
 [vue-js-grid-component]: http://vuejs.org/examples/grid-component.html
 [vue-js-filter-by]: http://vuejs.org/api/#filterBy
 [vue-js-limit-by]: http://vuejs.org/api/#limitBy
 [vue-js-order-by]: http://vuejs.org/api/#orderBy
 [vue-js-custom-filters]: http://vuejs.org/guide/custom-filter.html
-[fiddle-first-example]: http://jsfiddle.net/ctlevi/65ug9tu0/1/
-[fiddle-final-example]: http://jsfiddle.net/ctlevi/xbarpj1L/3/
+[fiddle-first-example]: http://jsfiddle.net/ctlevi/65ug9tu0/
+[fiddle-final-example]: http://jsfiddle.net/ctlevi/xbarpj1L/
 [vue-tables]: https://github.com/matfish2/vue-tables
