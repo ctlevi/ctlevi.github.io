@@ -16,9 +16,9 @@ All of this was obvious the moment I tried to mix the two, considering how diffe
 ### The Problem
 I needed a very basic table with searching and pagination. That's it. No sorted columns, as the order needed to be controlled by some business rules, not the user. The table also has frequent inserts and deletes from user interactions.
 
-
 ### Solution
-Full example [here][fiddle-first-example].
+Full example [here][fiddle-first-example], using Vue version 1.0.26. You should see some bugs! I'll show you how
+to fix them at the end.
 
 We will have two components: (1) the main ViewModel and (2) a child grid component that holds our table data. The ViewModel will control all our dynamic data and the grid component will be a dumb component with props only.
 
